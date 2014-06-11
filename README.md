@@ -25,7 +25,7 @@ Básicamente la estructura se basa en Header, Section y Footer. Junto con esto e
 Para definir el tamaño de un div solamente hay que decirle cuantas columnas habrán en la misma fila:
 
 Ej. En este caso la columna te permite poner 3
-<code>
+<pre
 <section>
     <div class="contenedor">
         <div class="columna_3"></div>
@@ -33,7 +33,7 @@ Ej. En este caso la columna te permite poner 3
         <div class="columna_3"></div>
     </div>
 </section>
-</code>
+</pre>
 
 Las clases son: .columna_1, .columna_2, .columna_3, .columna_4, .columna_5, .columna_6
 Revisar grilla.html para ver mas ejemplos
