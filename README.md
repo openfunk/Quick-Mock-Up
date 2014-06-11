@@ -25,6 +25,7 @@ Básicamente la estructura se basa en Header, Section y Footer. Junto con esto e
 Para definir el tamaño de un div solamente hay que decirle cuantas columnas habrán en la misma fila:
 
 Ej. En este caso la columna te permite poner 3
+<code>
 <section>
     <div class="contenedor">
         <div class="columna_3"></div>
@@ -32,6 +33,7 @@ Ej. En este caso la columna te permite poner 3
         <div class="columna_3"></div>
     </div>
 </section>
+</code>
 
 Las clases son: .columna_1, .columna_2, .columna_3, .columna_4, .columna_5, .columna_6
 Revisar grilla.html para ver mas ejemplos
@@ -42,11 +44,13 @@ Clases:
 .con_borde, .con_margen, con_padding
 
 Ej. En este caso los divs de adentro (las columnas) tendrán un margen y un borde.
+<code>
     <div class="contenedor con_margen con_borde">
         <div class="columna_3"></div>
         <div class="columna_3"></div>
         <div class="columna_3"></div>
     </div>
+</code>
 
 2.- BOTONES
 Achivo: recursos.css
@@ -55,16 +59,19 @@ Existen botones en 3 tamanos: Grande, normal y chico. Los botones por defecto so
 Para crear un botón solamente hay que poner la clase '.boton' a un '<a>'
 
 Ej.
-<a href="#" class="boton">Boton</a>
-
+<code>
+    <a href="#" class="boton">Boton</a>
+</code>
 
 3.- COLORES
 Achivo: color.css
 Para Agregar un color (rojo, azul o verde) a cualquier elemento solamente hay que agregar en la clase el color.
 
 Ej.
-<div class="verde"> Aquí puede ir texto </div>
-<a href="#" class="rojo">link</a>
+<code>
+    <div class="verde"> Aquí puede ir texto </div>
+    <a href="#" class="rojo">link</a>
+</code>
 
 
 4.- RECURSOS
