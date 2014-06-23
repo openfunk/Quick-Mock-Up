@@ -33,6 +33,37 @@ h3 {}
 h4 {}
 
 /*
+- TEXTOS
+*/
+
+p {
+    line-height: 23px;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    border-top: solid 2px #ccc;
+    border-bottom: solid 2px #ccc;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+blockquote:before {
+    content: '“';
+    position: absolute;
+    font-size: 70px;
+    font-family: 'Georgia','Times',serif;
+    top: 22px;
+    left: 0;
+    color: #ccc;
+}
+
+/*
 - HEADER
 */
 
@@ -58,7 +89,7 @@ header nav ul li a{
     margin-right: 15px;
 }
 
-header .logo {
+.logo {
     display: inline-block;
     vertical-align: middle;
     min-height: 80px;
@@ -72,7 +103,6 @@ header .logo {
 
 section {
     display: block;
-    margin: auto;
     margin-bottom: 50px;
 }
 
@@ -146,6 +176,15 @@ section {
     padding: 1.5%;
 }
 
+.sin_fondo .columna_1,
+.sin_fondo .columna_2,
+.sin_fondo .columna_3,
+.sin_fondo .columna_4,
+.sin_fondo .columna_5,
+.sin_fondo .columna_6 {
+    background: #fff;
+}
+
 /*
 - FOOTER
 */
@@ -197,4 +236,6 @@ footer {
     padding: 18px 50px;
     font-size: 16px;
 }
+
+
 

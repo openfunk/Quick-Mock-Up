@@ -25,15 +25,15 @@ Básicamente la estructura se basa en Header, Section y Footer. Junto con esto e
 Para definir el tamaño de un div solamente hay que decirle cuantas columnas habrán en la misma fila:
 
 Ej. En este caso la columna te permite poner 3
-<pre
-<section>
-    <div class="contenedor">
-        <div class="columna_3"></div>
-        <div class="columna_3"></div>
-        <div class="columna_3"></div>
-    </div>
-</section>
-</pre>
+<code>
+&lt;section>
+    &lt;div class="contenedor">
+        &lt;div class="columna_3"></div>
+        &lt;div class="columna_3"></div>
+        &lt;div class="columna_3"></div>
+    &lt;/div>
+&lt;/section>
+</code>
 
 Las clases son: .columna_1, .columna_2, .columna_3, .columna_4, .columna_5, .columna_6
 Revisar grilla.html para ver mas ejemplos
@@ -45,14 +45,21 @@ Clases:
 
 Ej. En este caso los divs de adentro (las columnas) tendrán un margen y un borde.
 <code>
-    <div class="contenedor con_margen con_borde">
-        <div class="columna_3"></div>
-        <div class="columna_3"></div>
-        <div class="columna_3"></div>
-    </div>
+    &lt;div class="contenedor con_margen con_borde">
+        &lt;div class="columna_3"></div>
+        &lt;div class="columna_3"></div>
+        &lt;div class="columna_3"></div>
+    &lt;/div>
 </code>
 
-2.- BOTONES
+
+2.- RECURSOS
+Achivo: recursos.css
+
+Acá podrán encontrar diferentes recursos del tipo "sin fondo", "sin padding", Sin Margen, Flotar a la izquierda o derecha, etc...
+Si deseas realizar algo mas especifico para un div acá lo podrán encontrar.
+
+1.1.- BOTONES
 Achivo: recursos.css
 Existen botones en 3 tamanos: Grande, normal y chico. Los botones por defecto son blancos con un borde gris.
 
@@ -60,25 +67,24 @@ Para crear un botón solamente hay que poner la clase '.boton' a un '<a>'
 
 Ej.
 <code>
-    <a href="#" class="boton">Boton</a>
+    &lt;a href="#" class="boton">Boton</a>
 </code>
 
-3.- COLORES
+1.2.- COLORES
 Achivo: color.css
 Para Agregar un color (rojo, azul o verde) a cualquier elemento solamente hay que agregar en la clase el color.
 
 Ej.
 <code>
-    <div class="verde"> Aquí puede ir texto </div>
-    <a href="#" class="rojo">link</a>
+    &lt;div class="verde"> Aquí puede ir texto </div>
+    &lt;a href="#" class="rojo">link</a>
 </code>
 
+1.3.- IMAGEN
+Si desea agregar la clasica X gigante dentro de un div con el fondo gris, solamente deben agregar la clase '.imagen' al div y esta automaticamente aparecera con la X y el fondo gris en todo el fondo, no es necesario escribir algo dentro del div.
 
-4.- RECURSOS
-Achivo: recursos.css
-
-Acá podrán encontrar diferentes recursos del tipo "sin fondo", "sin padding", Sin Margen, Flotar a la izquierda o derecha, etc...
-Si deseas realizar algo mas especifico para un div acá lo podrán encontrar.
+Ej.
+&lt;div class="imagen"></div >
 
 
 TO DO LIST
@@ -92,6 +98,9 @@ Cosas que ire creando:
 - Espacios en Blanco
 - Typo Open Sans 
 - Responsive
+- Modal de confirmacion
+- Input
+- Blog tipo
 
 
 
